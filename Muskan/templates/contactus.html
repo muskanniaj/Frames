@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+   
+    <link rel="stylesheet" href="contact us.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+    
+  <div class="container" style="background-color: #e50914;">
+    <div class="content">
+      <div class="left-side">
+        <div class="address details">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="topic">Address</div>
+          <div class="text-one">VIT Bhopal</div>
+          <div class="text-two">Sehore road</div>
+        </div>
+        <div class="phone details">
+          <i class="fas fa-phone-alt"></i>
+          <div class="topic">Phone</div>
+          <div class="text-one">+91 8319961500</div>
+          <div class="text-two">+91 7007655750</div>
+        </div>
+        <div class="email details">
+          <i class="fas fa-envelope"></i>
+          <div class="topic">Email</div>
+          
+          <div class="text-two">muskanjain123@gmail.com</div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="topic-text">SEND US A MESSAGE </div>
+        <br>
+        <p style="color:#ffffff";>You can contact us here if you have any suggestion or need information, or if you have any other issues.</p>
+        <br>
+        <form action ="https://formspree.io/f/xzbooblz"
+        method="POST" id="my-form">
+            <div class="dbl-field fields">
+              <div class="field name input-box">
+                <input type="text" name="name" placeholder="Enter your name" required style="background-color: white;">
+               
+              </div>
+              <div class="field email input-box">
+                <input type="email" name="_replyto" placeholder="Enter your email" required style="background-color: white
+                ;">
+                
+              </div>
+            </div>
+            <!-- <div class="dbl-field fields input-box">
+              <div class="field phone">
+                <input type="text" name="phone" placeholder="Enter your phone(Optional)">
+                
+              </div>
+              <div class="field website input-box">
+                <input type="text" name="website" placeholder="Enter your website(Optional)">
+               
+              </div>
+            </div> -->
+            
+          
+            <div class="message field textarea input-box" >
+              <textarea cols="30" rows="30" placeholder="Write your message" name="message" required style="background-color: white;"></textarea>
+              
+            </div>
+            
+            
+            <div class="button-area field button">
+              <button type="submit" style="border: 1px solid black; color:#ffffff;
+              padding: 10px; background-color:black">Send Message</button>
+              <br>
+              <br>
+              <span id="status"></span>
+            </div>
+          </form>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
